@@ -1,0 +1,26 @@
+.myButton {
+   outline: none;
+   background: var(--primary-dark-clr);
+   padding: var(--padding-md);
+   border: var(--border);
+   border-radius: var(--borderRadius-sm);
+   color: var(--secondary-clr);
+   font-size: 1.5rem;
+   transition: 0.2s ease-out;
+
+   &:disabled {
+      opacity: 0.5;
+   }
+}
+
+@media (hover: hover) {
+   .myButton {
+      &:hover {
+         cursor: pointer;
+         background: var(--primary-light-clr);
+      }
+      &:disabled:hover {
+         background: none;
+      }
+   }
+}

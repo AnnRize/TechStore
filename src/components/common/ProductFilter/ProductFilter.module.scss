@@ -1,0 +1,60 @@
+.filter {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   padding: 0 20px 20px;
+   width: 300px;
+   margin: 0 auto;
+
+   > p {
+      text-align: center;
+      font-size: var(--title-fontSize);
+   }
+
+   .price {
+      position: sticky;
+      top: 20px;
+      overflow: hidden;
+      border: var(--border);
+      border-radius: var(--borderRadius-sm);
+      display: flex;
+      flex-direction: column;
+
+      .filterName {
+         padding: 10px;
+
+         p {
+            font-size: var(--description-fontSize);
+         }
+         &:hover {
+            cursor: pointer;
+            background: var(--primary-light-clr);
+         }
+      }
+
+      .priceContainer {
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+         padding: 10px;
+
+         .price_label {
+            font-size: var(--description-fontSize);
+            input {
+               margin-right: 20px;
+            }
+
+            &:has(input:checked) {
+               span {
+                  color: var(--accent-clr);
+               }
+            }
+         }
+      }
+
+      .hide {
+         height: 0;
+         padding: 0;
+      }
+   }
+}

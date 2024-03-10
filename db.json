@@ -1,0 +1,220 @@
+{
+   "users": [
+      {
+         "email": "admin@mail.ru",
+         "password": "$2a$10$fvr4eQkUl.GWdAVq.LC86OWO6dYIIJMbmLE94bwuKDWXJu1bVlgtu",
+         "name": "AnnReize",
+         "id": 1
+      }
+   ],
+   "products": [
+      {
+         "code": 543964,
+         "name": "Монитор ARDOR GAMING-1",
+         "slug": "monitor-ardor-gaming-1",
+         "category": "monitors",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/monitors.png",
+         "price": 1000,
+         "characteristics": {
+            "type": "Монитор",
+            "model": "ARDOR GAMING PORTAL AF24H1"
+         }
+      },
+      {
+         "code": 543965,
+         "name": "Монитор ARDOR GAMING-2",
+         "slug": "monitor-ardor-gaming-2",
+         "category": "monitors",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/monitors.png",
+         "price": 2000,
+         "characteristics": {
+            "type": "Монитор",
+            "model": "ARDOR GAMING PORTAL AF24H1"
+         }
+      },
+      {
+         "code": 543966,
+         "name": "Монитор ARDOR GAMING-3",
+         "slug": "monitor-ardor-gaming-3",
+         "category": "monitors",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/monitors.png",
+         "price": 3000,
+         "characteristics": {
+            "type": "Монитор",
+            "model": "ARDOR GAMING PORTAL AF24H1"
+         }
+      },
+      {
+         "code": 543967,
+         "name": "Монитор ARDOR GAMING-4",
+         "slug": "monitor-ardor-gaming-4",
+         "category": "monitors",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/monitors.png",
+         "price": 4000,
+         "characteristics": {
+            "type": "Монитор",
+            "model": "ARDOR GAMING PORTAL AF24H1"
+         }
+      },
+      {
+         "code": 643964,
+         "name": "Клавиатура проводная Dark Project-1",
+         "slug": "klaviatura-provodnaya-dark-project-1",
+         "category": "keyboards",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/keyboards.png",
+         "price": 5000,
+         "characteristics": {
+            "type": "Клавиатура",
+            "model": "Dark Project KD87A Gateron Teal Cap"
+         }
+      },
+      {
+         "code": 643965,
+         "name": "Клавиатура проводная Dark Project-2",
+         "slug": "klaviatura-provodnaya-dark-project-2",
+         "category": "keyboards",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/keyboards.png",
+         "price": 6000,
+         "characteristics": {
+            "type": "Клавиатура",
+            "model": "Dark Project KD87A Gateron Teal Cap"
+         }
+      },
+      {
+         "code": 643966,
+         "name": "Клавиатура проводная Dark Project-3",
+         "slug": "klaviatura-provodnaya-dark-project-3",
+         "category": "keyboards",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/keyboards.png",
+         "price": 7000,
+         "characteristics": {
+            "type": "Клавиатура",
+            "model": "Dark Project KD87A Gateron Teal Cap"
+         }
+      },
+      {
+         "code": 643967,
+         "name": "Клавиатура проводная Dark Project-4",
+         "slug": "klaviatura-provodnaya-dark-project-4",
+         "category": "keyboards",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/keyboards.png",
+         "price": 8000,
+         "characteristics": {
+            "type": "Клавиатура",
+            "model": "Dark Project KD87A Gateron Teal Cap"
+         }
+      },
+      {
+         "code": 743964,
+         "name": "Процессор AMD Ryzen Threadripper PRO-1",
+         "slug": "processor-amd-ryzen-threadripper-pro-1",
+         "category": "processors",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/processors.png",
+         "price": 9000,
+         "characteristics": {
+            "type": "Процессор",
+            "model": "AMD Ryzen Threadripper PRO 5995WX"
+         }
+      },
+      {
+         "code": 743965,
+         "name": "Процессор AMD Ryzen Threadripper PRO-2",
+         "slug": "processor-amd-ryzen-threadripper-pro-2",
+         "category": "processors",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/processors.png",
+         "price": 10000,
+         "characteristics": {
+            "type": "Процессор",
+            "model": "AMD Ryzen Threadripper PRO 5995WX"
+         }
+      },
+      {
+         "code": 743966,
+         "name": "Процессор AMD Ryzen Threadripper PRO-3",
+         "slug": "processor-amd-ryzen-threadripper-pro-3",
+         "category": "processors",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/processors.png",
+         "price": 11000,
+         "characteristics": {
+            "type": "Процессор",
+            "model": "AMD Ryzen Threadripper PRO 5995WX"
+         }
+      },
+      {
+         "code": 743967,
+         "name": "Процессор AMD Ryzen Threadripper PRO-4",
+         "slug": "processor-amd-ryzen-threadripper-pro-4",
+         "category": "processors",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/processors.png",
+         "price": 12000,
+         "characteristics": {
+            "type": "Процессор",
+            "model": "AMD Ryzen Threadripper PRO 5995WX"
+         }
+      },
+      {
+         "code": 843964,
+         "name": "Видеокарта GIGABYTE GeForce RTX 4090-1",
+         "slug": "videokarta-gigabyte-geforce-rtx-4090-1",
+         "category": "video-cards",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/video-cards.png",
+         "price": 13000,
+         "characteristics": {
+            "type": "Видеокарта",
+            "model": "GIGABYTE GeForce RTX 4090 AORUS MASTER"
+         }
+      },
+      {
+         "code": 843965,
+         "name": "Видеокарта GIGABYTE GeForce RTX 4090-2",
+         "slug": "videokarta-gigabyte-geforce-rtx-4090-2",
+         "category": "video-cards",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/video-cards.png",
+         "price": 14000,
+         "characteristics": {
+            "type": "Видеокарта",
+            "model": "GIGABYTE GeForce RTX 4090 AORUS MASTER"
+         }
+      },
+      {
+         "code": 843966,
+         "name": "Видеокарта GIGABYTE GeForce RTX 4090-3",
+         "slug": "videokarta-gigabyte-geforce-rtx-4090-3",
+         "category": "video-cards",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/video-cards.png",
+         "price": 15000,
+         "characteristics": {
+            "type": "Видеокарта",
+            "model": "GIGABYTE GeForce RTX 4090 AORUS MASTER"
+         }
+      },
+      {
+         "code": 843967,
+         "name": "Видеокарта GIGABYTE GeForce RTX 4090-4",
+         "slug": "videokarta-gigabyte-geforce-rtx-4090-4",
+         "category": "video-cards",
+         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae soluta, cumque amet beatae adipisci aperiam dolorem ab eveniet. Porro placeat optio nihil odit dolorem unde inventore accusamus praesentium laudantium.",
+         "pictureUrl": "/video-cards.png",
+         "price": 16000,
+         "characteristics": {
+            "type": "Видеокарта",
+            "model": "GIGABYTE GeForce RTX 4090 AORUS MASTER"
+         }
+      }
+   ]
+}

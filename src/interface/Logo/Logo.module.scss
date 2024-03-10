@@ -1,0 +1,12 @@
+.logo {
+   display: flex;
+   position: relative;
+   align-items: center;
+   justify-content: center;
+
+   img {
+      width: 80px;
+      aspect-ratio: 1/1;
+      display: block;
+   }
+}

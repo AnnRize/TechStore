@@ -1,0 +1,28 @@
+.container {
+   flex: 1;
+
+   .aside {
+      padding: 20px;
+      max-width: 500px;
+      border: var(--border);
+      border-radius: var(--borderRadius-md);
+
+      h1 {
+         text-align: center;
+         margin-bottom: 20px;
+      }
+
+      .navbar {
+         > ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            > li {
+               font-size: 1.2rem;
+            }
+         }
+      }
+   }
+}

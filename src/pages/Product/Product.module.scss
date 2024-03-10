@@ -1,0 +1,99 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+   .productContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+      border: var(--border);
+      border-radius: var(--borderRadius-md);
+      padding: 20px;
+
+      .imageWrapper {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex: 1;
+         border-radius: var(--borderRadius-sm);
+         overflow: hidden;
+         min-width: 250px;
+
+         img {
+            max-width: 400px;
+            width: 100%;
+            object-fit: cover;
+         }
+      }
+
+      .product {
+         flex: 1;
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         min-width: 250px;
+
+         .model {
+            p {
+               font-size: var(--title-fontSize);
+            }
+         }
+
+         .purchaseContainer {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            .price {
+               padding-inline: 10px;
+               display: inline-flex;
+               align-items: center;
+               background: linear-gradient(90deg, transparent, var(--primary-light-clr));
+               flex: 1;
+               font-size: var(--title-fontSize);
+               border-radius: var(--borderRadius-sm);
+            }
+
+            .buttons {
+               display: flex;
+               gap: 10px;
+               .favorite {
+               }
+
+               .purchase {
+                  &:hover {
+                     color: var(--primary-dark-clr);
+                     background: var(--accent-clr);
+                  }
+               }
+            }
+         }
+         .description {
+            p {
+               font-size: var(--description-fontSize);
+            }
+         }
+
+         .characteristic {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            p {
+               text-align: center;
+               font-size: var(--title-fontSize);
+            }
+            ul {
+               list-style-type: none;
+               display: flex;
+               flex-direction: column;
+               gap: 10px;
+
+               li {
+                  font-size: var(--description-fontSize);
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,22 @@
+.container {
+   width: 100px;
+   height: 100px;
+   flex: 1;
+   margin-inline: auto;
+
+   .loadIcon {
+      .large {
+         transform-origin: center;
+         animation: rotate 5s linear 0s infinite normal forwards;
+      }
+   }
+}
+
+@keyframes rotate {
+   0% {
+      transform: rotateZ(0deg);
+   }
+   100% {
+      transform: rotateZ(360deg);
+   }
+}

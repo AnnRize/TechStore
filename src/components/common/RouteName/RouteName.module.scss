@@ -1,0 +1,29 @@
+.breadCrumbs {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   nav {
+      > ul {
+         list-style-type: none;
+         display: flex;
+
+         > li {
+            > a {
+            }
+
+            &:last-child a {
+               color: var(--accent-clr);
+            }
+
+            &:not(:last-child)::after {
+               content: ">";
+               margin-inline: 10px;
+            }
+         }
+      }
+   }
+
+   h2 {
+      text-transform: uppercase;
+   }
+}

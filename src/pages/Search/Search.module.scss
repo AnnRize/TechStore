@@ -1,0 +1,45 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+   .foundCategories {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      p {
+         font-size: var(--title-fontSize);
+      }
+
+      > ul {
+         list-style-type: none;
+         display: flex;
+         flex-wrap: wrap;
+         gap: 10px;
+
+         > li {
+            font-size: var(--description-fontSize);
+            &:not(:last-child)::after {
+               content: ",";
+            }
+         }
+      }
+   }
+
+   .search {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      min-height: 680px;
+
+      .searchList {
+         flex: 1;
+
+         .notFound {
+            text-align: center;
+            font-size: var(--title-fontSize);
+         }
+      }
+   }
+}

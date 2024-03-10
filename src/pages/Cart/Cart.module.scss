@@ -1,0 +1,25 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   flex: 1;
+
+   .isEmpty {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: var(--title-fontSize);
+   }
+
+   .sum {
+      text-align: right;
+      background: var(--primary-dark-clr);
+      position: sticky;
+      bottom: 0;
+      margin-top: auto;
+      padding: 20px;
+      font-size: var(--title-fontSize);
+      border-top: var(--border);
+   }
+}

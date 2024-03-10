@@ -1,0 +1,16 @@
+.container {
+   max-width: var(--container-maxWidth);
+   margin-inline: auto;
+   padding: 20px 0 0;
+   min-height: 100vh;
+
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+   .main {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+   }
+}

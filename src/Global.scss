@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Roboto:wght@300;500;700&family=Rubik+Burned&display=swap");
+
+:root {
+   --primary-dark-clr: rgb(20, 20, 20);
+   --primary-light-clr: rgb(60, 60, 60);
+   --secondary-clr: rgb(200, 200, 200);
+   --accent-clr: rgb(171, 255, 46);
+
+   --borderRadius-sm: 10px;
+   --borderRadius-md: 20px;
+
+   --padding-md: 10px 20px;
+
+   --border: 2px solid var(--accent-clr);
+   --container-maxWidth: 1500px;
+
+   --title-fontSize: 1.6rem;
+   --description-fontSize: 1.1rem;
+
+   font-family: system-ui, "Open Sans", sans-serif;
+   background-color: var(--primary-dark-clr);
+   color: var(--secondary-clr);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   min-height: 100vh;
+}
+
+h1 {
+   font-size: 2.5rem;
+}
+
+a {
+   color: var(--secondary-clr);
+   text-decoration: none;
+   transition: 0.1s ease-in-out;
+
+   &:hover {
+      color: var(--accent-clr);
+   }
+}
+
+label:hover {
+   cursor: pointer;
+}
+
+img {
+   display: block;
+}
+
+*::-webkit-scrollbar {
+   width: 10px;
+   height: 8px;
+}
+*::-webkit-scrollbar-track {
+   border-radius: var(--borderRadius-md);
+   background: var(--primary-light-clr);
+}
+*::-webkit-scrollbar-thumb {
+   background-color: var(--accent-clr);
+   border-radius: var(--borderRadius-md);
+}
