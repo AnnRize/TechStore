@@ -1,5 +1,5 @@
 {
-   "name": "techStore",
+   "name": "tech-store",
    "author": {
       "name": "Ann"
    },
@@ -11,8 +11,7 @@
       "build": "tsc && vite build",
       "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
       "preview": "vite preview",
-      "db": "json-server-auth db.json -r routes.json -p 4200",
-      "test": "jest"
+      "db": "json-server-auth db.json -r routes.json -p 4200"
    },
    "dependencies": {
       "@tanstack/react-query": "^5.18.1",
@@ -21,10 +20,8 @@
       "mobx-react-lite": "^4.0.5",
       "react": "^18.2.0",
       "react-dom": "^18.2.0",
-      "react-hook-form": "^7.45.0",
       "react-hot-toast": "^2.4.1",
       "react-router-dom": "^6.13.0",
-      "react-select": "^5.7.3",
       "sass": "^1.66.1",
       "ts-node": "^10.9.2",
       "universal-cookie": "^6.1.1"
