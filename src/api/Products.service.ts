@@ -13,10 +13,15 @@ export const getProduct = async (code: string, slug: string) => {
    return res.data[0];
 };
 
-export const getProducts = async (price: string | number, category: string) => {
+export const getProducts = async (
+   minPrice: string | number,
+   maxPrice: string | number,
+   category: string,
+) => {
    const { data } = await products.get<IProduct[]>("products", {
       params: {
-         price_lte: price,
+         price_lte: maxPrice,
+         price_gte: minPrice,
          category: category,
       },
    });
@@ -24,12 +29,14 @@ export const getProducts = async (price: string | number, category: string) => {
 };
 
 export const searchProducts = async (
-   price: string | number,
+   minPrice: string | number,
+   maxPrice: string | number,
    searchString: string,
 ) => {
    const { data } = await products.get<IProduct[]>("products", {
       params: {
-         price_lte: price,
+         price_lte: maxPrice,
+         price_gte: minPrice,
          name_like: searchString,
       },
    });

@@ -10,18 +10,19 @@ import { CategoriesType, translateCategory } from "utils";
 
 const Products = () => {
    const [searchParams /* setSearchParams */] = useSearchParams();
-   const filterPrice = searchParams.get("max_price") || "100000";
+   const filterMinPrice = searchParams.get("gte") || "0";
+   const filterMaxPrice = searchParams.get("lte") || "1000000";
 
    const { productList } = useParams();
 
    const { data, isLoading, isError, refetch } = useQuery({
       queryKey: ["product-list", productList],
-      queryFn: () => getProducts(filterPrice, productList!),
+      queryFn: () => getProducts(filterMinPrice, filterMaxPrice, productList!),
    });
 
    useEffect(() => {
       refetch();
-   }, [filterPrice, refetch]);
+   }, [filterMaxPrice, refetch]);
 
    if (isLoading) {
       return <Loader />;

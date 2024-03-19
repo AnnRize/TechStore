@@ -4,8 +4,8 @@ import { formatter, priceArray } from "utils";
 import style from "./ProductFilter.module.scss";
 
 export const ProductFilter = () => {
-   const [searchParams, setSearchParams] = useSearchParams();
-   const [price, hidePrice] = useState(false);
+   const [, setSearchParams] = useSearchParams();
+   const [price, hidePrice] = useState(true);
 
    return (
       <aside className={style.filter}>
@@ -20,13 +20,14 @@ export const ProductFilter = () => {
             <div className={`${style.priceContainer} ${price && style.hide}`}>
                <label className={style.price_label} htmlFor="default">
                   <input
-                     checked={searchParams.get("max_price") === null}
+                     defaultChecked
                      type="radio"
                      name="rad"
                      id="default"
                      onChange={() => {
                         setSearchParams((params) => {
-                           params.delete("max_price");
+                           params.delete("gte");
+                           params.delete("lte");
                            return params;
                         });
                      }}
@@ -40,20 +41,18 @@ export const ProductFilter = () => {
                      htmlFor={`${index}`}
                   >
                      <input
-                        checked={
-                           searchParams.get("max_price") === price.toString()
-                        }
                         type="radio"
                         name="rad"
                         id={`${index}`}
                         onChange={() => {
                            setSearchParams((params) => {
-                              params.set("max_price", `${price}`);
+                              params.set("gte", `${price.min}`);
+                              params.set("lte", `${price.max}`);
                               return params;
                            });
                         }}
                      />
-                     <span>Менее {formatter(price)}</span>
+                     <span>{price.min + " - " + formatter(price.max)}</span>
                   </label>
                ))}
             </div>

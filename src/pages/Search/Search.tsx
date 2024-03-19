@@ -12,12 +12,17 @@ const Search = () => {
    const [searchParams /* setSearchParams */] = useSearchParams();
    const [categories, setCategories] = useState<CategoriesType[]>([]);
    const searchString = searchParams.get("q") || "";
-   const filterPrice = searchParams.get("max_price") || "100000";
+   const filterMinPrice = searchParams.get("gte") || "0";
+   const filterMaxPrice = searchParams.get("lte") || "1000000";
 
    const { data, isLoading, isError, refetch } = useQuery({
       queryKey: ["search", searchString],
       queryFn: async () => {
-         const res = await searchProducts(filterPrice, searchString);
+         const res = await searchProducts(
+            filterMinPrice,
+            filterMaxPrice,
+            searchString,
+         );
          // список найденных категорий
          const categoriesArray = Array.from(
             new Set(res.map((value) => value.category)),
@@ -29,7 +34,7 @@ const Search = () => {
 
    useEffect(() => {
       refetch();
-   }, [searchString, filterPrice, refetch]);
+   }, [searchString, filterMaxPrice, refetch]);
 
    if (isLoading) {
       return <Loader />;

@@ -5,6 +5,8 @@
    padding: 0 20px 20px;
    width: 300px;
    margin: 0 auto;
+   border: var(--border);
+   border-radius: var(--borderRadius-sm);
 
    > p {
       text-align: center;
