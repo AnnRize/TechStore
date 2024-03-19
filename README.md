@@ -11,6 +11,22 @@
 
 1. _Start server using the `yarn db` command_
 
+---
+
+ <details><summary><b>Screenshots</b></summary>    
+  
+<h3>Main</h3><img src="screenshots/main.png" ><hr>
+<h3>Catalog</h3><img src="screenshots/catalog.png" /><hr>
+<h3>Category</h3><img src="screenshots/category.png"/><hr>
+<h3>Search</h3><img src="screenshots/search.png"/><hr>
+<h3>Products</h3><img src="screenshots/products.png"/><hr>
+<h3>Product</h3><img src="screenshots/product.png"/><hr>
+<h3>Favorites</h3><img src="screenshots/favorites.png"/><hr>
+<h3>Basket</h3><img src="screenshots/basket.png"/>
+</details>
+
+---
+
 ## **Technology stack:**
 
 -  _Vite_
