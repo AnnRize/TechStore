@@ -22,7 +22,8 @@
 <h3>Products</h3><img src="screenshots/products.png"/><hr>
 <h3>Product</h3><img src="screenshots/product.png"/><hr>
 <h3>Favorites</h3><img src="screenshots/favorites.png"/><hr>
-<h3>Basket</h3><img src="screenshots/basket.png"/>
+<h3>Basket</h3><img src="screenshots/basket.png"/><hr>
+<h3>Adaptive</h3><img src="screenshots/adaptive.png"/>
 </details>
 
 ---
