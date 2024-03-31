@@ -1,4 +1,4 @@
-# TechStore + MobX
+# TechStore
 
 ### **Start app**
 
